@@ -9,6 +9,9 @@
                 <div class="mol">
                     <article-post article-num="66" article-title="人間錯覚"></article-post>
                 </div>
+
+                <hr />
+
                 <div class="mol">
                     <ul v-for="(item, index) in books" :key="index">
                         <li>{{ item.articleNum}} {{ item.articleTitle}}</li>
