@@ -19,6 +19,11 @@ const routes = [
         name: 'Props',
         component: () => import (
         '../views/Props.vue')
+    }, {
+        path: '/slot',
+        name: 'Slot',
+        component: () => import (
+        '../components/Slot.vue')
     }
 ]
 
