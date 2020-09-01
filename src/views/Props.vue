@@ -7,14 +7,15 @@
                     <article-post></article-post>
                 </div>
                 <div class="mol">
-                    <article-post article-num="66" article-title="人間錯覚"></article-post>
+                    <article-post article-num="666" article-title="人間錯覚"></article-post>
                 </div>
-
                 <hr />
-
                 <div class="mol">
                     <ul v-for="(item, index) in books" :key="index">
-                        <li>{{ item.articleNum}} {{ item.articleTitle}}</li>
+                        <li>
+                            {{ item.articleNum}}
+                            {{ item.articleTitle}}
+                        </li>
                     </ul>
                     <!-- <article-post article-num="2" article-title="人間錯覚"></article-post> -->
                 </div>
