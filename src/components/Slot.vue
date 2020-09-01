@@ -1,10 +1,13 @@
 <template>
-    <div class="slot">Slot</div>
+    <div class="slot">
+        Slot
+        <p slot name="a"></p>
+    </div>
 </template>
 
 <script>
 export default {
-    name: "Slot",
+    name: "SlotParam",
     data() {
         return {};
     }
