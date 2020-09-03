@@ -1,0 +1,20 @@
+{
+  "todos": [
+    {
+      "id": 0,
+      "name": "Got to office"
+    },
+    {
+      "id": 1,
+      "name": "Eat the lunch"
+    },
+    {
+      "name": "Replace this",
+      "id": 2
+    },
+    {
+      "name": "Dummy api test",
+      "id": 3
+    }
+  ]
+}
