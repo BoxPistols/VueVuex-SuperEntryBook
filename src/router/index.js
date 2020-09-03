@@ -19,6 +19,11 @@ const routes = [
         name: 'Props',
         component: () => import (
         '../views/Props.vue')
+    }, {
+        path: '/api',
+        name: 'api',
+        component: () => import (
+        '../views/API.vue')
     }
 ]
 
