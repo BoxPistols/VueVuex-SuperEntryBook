@@ -9,7 +9,7 @@ export default {
     props: {
         articleNum: {
             type: Number,
-            default: 1
+            default: 0
         },
         articleTitle: {
             type: String,
